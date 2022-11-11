@@ -97,3 +97,12 @@ a {
 .card:hover {
   transform: scale(1.05) translateX(20px);
 }
+
+.text {
+  line-height: 1.9;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
