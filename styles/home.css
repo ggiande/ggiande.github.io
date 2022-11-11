@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap");
+.navbar {
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-md {
+  max-width: 1000px;
+}
+
+.greeting {
+  font-family: Inter;
+  line-height: 1.45;
+  max-width: 750px;
+  font-weight: 800;
+  /* border: solid black 3px; */
+}
+
+.gamer {
+  color: red;
+}
+
+.gamer:hover {
+  background-color: rgba(255, 0, 0, 0.199);
+  color: red;
+  padding: 3px;
+}
+
+.engineer {
+  color: orange;
+}
+
+.engineer:hover {
+  background-color: rgba(255, 166, 0, 0.128);
+  color: orange;
+  padding: 3px;
+}
+
+.presenter {
+  color: purple;
+}
+
+.presenter:hover {
+  background-color: rgba(128, 0, 128, 0.142);
+  color: purple;
+  padding: 3px;
+}
+
+.writer {
+  color: #6cbb47;
+}
+
+.writer:hover {
+  background-color: #6cbb4729;
+  color: #6cbb47;
+  padding: 3px;
+}
+
+.container {
+  /* border: solid 3px red; */
+}
+
+.list-items {
+  border: 3px solid red;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.list-item {
+  color: black;
+  border: solid 3px blue;
+}
+
+.list-item:hover {
+  border: red solid 3px;
+}
+
+.item:hover {
+  color: rgb(24, 158, 225);
+}
+
+.item::after {
+  content: "\f061";
+  display: inline-block;
+  padding-left: 0em;
+  vertical-align: middle;
+  font-family: "Font Awesome 5 Free";
+  transition: 0.5s;
+  transition-timing-function: ease;
+  font-weight: bolder;
+}
+
+.item:hover::after {
+  transform: translateX(10px);
+}
+
+.card:hover {
+  transform: scale(1.05) translateX(20px);
+}

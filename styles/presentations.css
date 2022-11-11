@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap");
+.navbar {
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-md {
+  max-width: 1000px;
+}
+
+.greeting {
+  font-family: Inter;
+  line-height: 1.45;
+  max-width: 750px;
+  font-weight: 800;
+}
+
+.item:hover {
+  color: rgb(24, 158, 225);
+}
+
+.item::after {
+  content: "\f061";
+  display: inline-block;
+  padding-left: 0em;
+  vertical-align: middle;
+  font-family: "Font Awesome 5 Free";
+  transition: 0.5s;
+  transition-timing-function: ease;
+  font-weight: bolder;
+}
+
+.item:hover::after {
+  transform: translateX(10px);
+}
+
+.card:hover {
+  transform: scale(1.05) translateX(20px);
+}
